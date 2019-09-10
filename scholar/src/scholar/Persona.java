@@ -18,7 +18,9 @@ public class Persona {
     public String direccion;
     public String correo_electronico;
     public String genero;
-
+    public int AñoNacimiento = 2000;
+    public int AñoActual = 2019;
+            
     public String getNombre() {
         return nombre;
     }
@@ -108,9 +110,10 @@ public class Persona {
     }
     
     public void printName(){
-    System.out.println(this.nombre+" "+this.apellido);
-    System.out.println();
+            System.out.println(this.nombre + " " + this.apellido );
     }
+    
+    public int calcEdad () {
+        return AñoActual-AñoNacimiento;
     }
-           
-
+}

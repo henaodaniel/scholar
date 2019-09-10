@@ -6,16 +6,7 @@
 package scholar;
 
 
-public class Estudiante {
-  public String nombre;
-  public String apellido;
-  public String fecha_de_nacimiento;
-  public String tipo_sangre;
-  public String nacionalidad;
-  public String identificacion;
-  public String telefono;
-  public String direccion;
-  public String correo_electronico;
-  public String genero;
+public class Estudiante extends Persona {
+  
     
 }
